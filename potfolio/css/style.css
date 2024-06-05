@@ -1,0 +1,10 @@
+.size{
+    width: 100%;
+    height: 850px;
+    background: #f5f3f355;
+}
+.sin{
+    position: absolute;
+    height: 500px;
+    width: 400px;
+}
