@@ -11,25 +11,25 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-lg navbar-inverse fixed-top">
+        <div class="container">
+          <a class="navbar-brand  text-light" href="#">Navbar</a>
+          <button class="navbar-toggler text-bg-light " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+          <div class="collapse  navbar-collapse justify-content-center" id="navbarNavDropdown">
             <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <li class="nav-item ">
+                <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">ProJect</a>
+                <a class="nav-link text-light" href="#">ProJect</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Skills</a>
+                <a class="nav-link text-light text-light" href="#">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact ME</a>
+                <a class="nav-link text-light" href="#">Contact ME</a>
               </li>
               
             </ul>
@@ -40,19 +40,90 @@
        <!-- body start here -->
       <div class="container-fluid">
         <div class="row imag_bg">
-            <div class="col ">
-                <div class=" "><h3 class="text-warning mt-5">Hello. I'm</h3>
-                  <h1 class=" text-light">Alok Singh</h1>
-                  <h3 class="text-light">Web <span class="text-info ">Designer</span> and <span class="text-info">Developer</span></h3>
+            <div class="col text-hed">
+                <div class=" text_grt"><h3 class="text-warning mt-5">Hello. I'm</h3>
+                  <h1 class=" text-light text-cen">Alok Singh</h1>
+                  <h3 class="text-light text-main">Web <span class="text-info ">Designer</span> and <span class="text-info">Developer</span></h3>
                 </div> 
-                <div class=" fs-3">
-                  <span class=" mx-4 "><i class="bi bi-github text-light"> </i></span>
-                  <span ><i class="bi bi-linkedin text-light"></i></span>
-    
+                <div class="icon ">
+                  <span class=" mx-3 ">
+                    <button type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="top" title="GitHub">
+                    <i class="bi bi-github text-light fs-1" > </i></button></span>
+                  < ><button type="button" class="btn " data-bs-toggle="tooltip" data-bs-placement="top" title="LinkedIn"><i class="bi bi-linkedin text-light fs-1"></i></button></span>
             </div>
         </div>
       </div>
-
         <!-- body end here -->
+         <!-- main body part project start -->
+         <p class=" text-center fs-1 m-4 text-danger">ProJect</p>
+          <div class=" container">
+            <div class="row">
+              <div class="card mb-3 me-2" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="img/project.jpeg" class="img-fluid   mt-2 rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Quiz WebSite</h5>
+                      <p class="card-text">Quiz websites are interactive 
+                        platforms offering a variety of quizzes on 
+                        diverse topics, enhancing both learning and 
+                        entertainment. <br> <span class=" text-bg-light">&nbsp;&nbsp; HTML &nbsp;&nbsp;</span>
+                        <span class=" text-bg-light">&nbsp;&nbsp; CSS &nbsp;&nbsp;</span>
+                        <span class=" text-bg-light">&nbsp;&nbsp; JavaScript &nbsp;&nbsp;</span><br>
+                        <span class=" text-bg-light">&nbsp;&nbsp; Bootstrap &nbsp;&nbsp;</span></p>
+                      <div class=" "><button type="button" class="btn btn-outline-danger mx-2">Sorce Code</button> 
+                        <button type="button" class="btn btn-outline-info mx-2">Live View</button></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3 ms-2" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="img/employmanagement.jpeg" class="img-fluid   mt-2 rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Employee Management</h5>
+                      <p class="card-text">Employee salary management involves the administration of the compensation of employees in an organization. This includes tracking work hours, calculating salaries, processing payroll, and ensuring timely and accurate salary payments. 💼💰<br> 
+                        <span class=" text-bg-light">&nbsp;&nbsp; HTML &nbsp;&nbsp;</span>
+                        <span class=" text-bg-light">&nbsp;&nbsp; CSS &nbsp;&nbsp;</span>
+                        <span class=" text-bg-light">&nbsp;&nbsp; JavaScript &nbsp;&nbsp;</span><br>
+                        <span class=" text-bg-light">&nbsp;&nbsp; Bootstrap &nbsp;&nbsp;</span></p>
+                      <div class=" "><button type="button" class="btn btn-outline-danger mx-2">Sorce Code</button> 
+                        
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+
+          <!-- main body part project end -->
+          <div class=" container text-bg-dark"> 
+            <p class=" text-center text-light ">Skill </p>
+            <div class="row">
+              <div class=" col-sm-6">
+                <div class=" card-body border border-white">
+                  <img src="img/html.jpg"  class=" img-fluid" alt="">
+                </div>
+                <p>HTML</p>
+              </div>
+              <div class=" col-sm-6">
+
+              </div>
+            </div>
+          </div>
+          
+          <button type="button" class="btn mb-2 mb-md-0 btn-primary btn-block"><span>Like</span>
+            <div class="icon d-flex align-items-center justify-content-center">
+            <i class="ion-ios-heart"></i>
+            </div>
+            </button>
+
+
+          
+        
 </body>
 </html>

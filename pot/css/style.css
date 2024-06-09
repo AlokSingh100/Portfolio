@@ -1,5 +1,51 @@
 .imag_bg{
-    background-image: url("../img/19608.jpg");
+    background-image: url("../img/space.jpg");
    background-size:100% auto;
    background-repeat: no-repeat;
+   
+}
+.text-hed{
+    margin-top: 20%;
+    margin-bottom: 13%;
+    margin-left: 7%;
+    opacity: 0;
+  animation: 4s fadeIn;
+  animation-fill-mode: forwards;
+  transition: opacity 3s;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.text-cen{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+
+
+
+@media(max-width:450px){
+    .imag_bg{
+        height: 463px;
+        background-size:100% 453px;
+        background-repeat: no-repeat;
+    }
+
+    .text-hed{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .text-hed{
+        margin-top: 53%;
+    }
+    .icon{
+        margin-left: -24px;
+    }
+   
 }
