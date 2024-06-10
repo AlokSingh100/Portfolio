@@ -10,7 +10,8 @@
     
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body onload="event1()">
+  <div id="loading"></div>
     <nav class="navbar navbar-expand-lg navbar-inverse fixed-top">
         <div class="container">
           <a class="navbar-brand  text-light" href="#">Alok.Potfolio</a>
@@ -57,9 +58,9 @@
         <!-- body end here -->
          <!-- main body part project start -->
          <section id="Project"><p class=" text-center fs-1 m-4 text-danger">ProJect</p></section>
-          <div class=" container">
+          <div class=" container time">
             <div class="row">
-              <div class="card mb-3 me-2" style="max-width: 540px;">
+              <div class="card mb-3  m-2" style="max-width: 540px;">
                 <div class="row g-0">
                   <div class="col-md-4">
                     <img src="img/project.jpeg" class="img-fluid   mt-2 rounded-start" alt="...">
@@ -74,13 +75,13 @@
                         <span class=" text-bg-light">&nbsp;&nbsp; CSS &nbsp;&nbsp;</span>
                         <span class=" text-bg-light">&nbsp;&nbsp; JavaScript &nbsp;&nbsp;</span><br>
                         <span class=" text-bg-light">&nbsp;&nbsp; Bootstrap &nbsp;&nbsp;</span></p>
-                      <div class=" "><button type="button" class="btn btn-outline-danger mx-2">Sorce Code</button> 
-                        <button type="button" class="btn btn-outline-info mx-2">Live View</button></div>
+                      <div class=" "><a href="https://github.com/AlokSingh100/Quiz-Website.git"><button type="button" class="btn btn-outline-danger mx-2">Sorce Code</button> </a>
+                        <a href="https://aloksingh100.github.io/Quiz-Website/"><button type="button" class="btn btn-outline-info mx-2">Live View</button></a></div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="card mb-3 ms-2" style="max-width: 540px;">
+              <div class="card mb-3 m-2" style="max-width: 540px;">
                 <div class="row g-0">
                   <div class="col-md-4">
                     <img src="img/employmanagement.jpeg" class="img-fluid   mt-2 rounded-start" alt="...">
@@ -93,7 +94,7 @@
                         <span class=" text-bg-light">&nbsp;&nbsp; CSS &nbsp;&nbsp;</span>
                         <span class=" text-bg-light">&nbsp;&nbsp; JavaScript &nbsp;&nbsp;</span><br>
                         <span class=" text-bg-light">&nbsp;&nbsp; Bootstrap &nbsp;&nbsp;</span></p>
-                      <div class=" "><button type="button" class="btn btn-outline-danger mx-2">Sorce Code</button> 
+                      <div class=" "><a href=""></a><button type="button" class="btn btn-outline-danger mx-2">Sorce Code</button> 
                         
                     </div>
                   </div>
@@ -103,7 +104,7 @@
 
           <!-- main body part project end -->
            
-          <div class=" container text-bg-dark mb-5"> 
+          <div class=" container text-bg-dark mb-5 time"> 
             <section id="Skill"><h1 class=" text-center text-info fs-1 m-4 ">Skill </h1></section>
             <div class="row text-bg-dark">
             <div class="card mb-3  text-bg-dark border border-dark" style="max-width: 540px;">
@@ -213,13 +214,13 @@
            <section id="Contactme"></section>
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
           <section class="deneb_cta">
-            <div class="container">
+            <div class="container time">
               <div class="cta_wrapper">
                 <div class="row align-items-center">
                   <div class="col-lg-7">
                     <div class="cta_content">
                       <h3>Have Any Project in Mind ?</h3>
-                      <p>Curabitur libero eros, efficitur sit amet sodales tincidunt, aliquet et leo sed ut nibh feugiat, auctor enim quis.</p>
+                      <p>Great ideas are born from the spark of passion. Let’s collaborate and transform these sparks into a blazing project. Your expertise, combined with my creativity, can create something extraordinary. Let’s embark on this journey of innovation together.</p>
                     </div>
                   </div>
                   <div class="col-lg-5">
@@ -240,7 +241,7 @@
                       <div class="widget_title">
                         <img src="assets/images/logo_1.png" class="img-fluid" alt="">
                       </div>
-                      <p>Quisque orci nisl, viverra et sem ac, tincidunt egestas massa. Morbi est arcu, hendrerit ac vehicula condimentum, euismod nec tortor praesent consequat urna.</p>
+                      <p>Reach out, let’s connect. Your thoughts and ideas are the stepping stones to our shared success. Contact us, follow us, and together, we’ll embark on a journey of discovery and innovation.</p>
                       <ul class="social">
                         <li><a href="https://github.com/AlokSingh100"><i class="bi bi-github " ></i></a></li>
                         <li><a href="https://www.linkedin.com/in/alok-singh-149a4327b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="bi bi-linkedin "></i></a></li>
@@ -311,6 +312,13 @@
               </div>
             </div>
           </footer>
+          <script>
+            let prelod=document.getElementById("loading");
+
+            function  event1(){
+              prelod.style.display="none";
+            }
+          </script>
         
 </body>
 </html>
