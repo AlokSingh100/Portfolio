@@ -241,7 +241,7 @@
     
     width: 100%;
     height: 100vh;
-    background: #ffff url("../img/preloder.gif") no-repeat center;
+    background: #ffff url("../img/preloader.gif") no-repeat center;
     position: fixed;
     z-index: 4000;
 }
